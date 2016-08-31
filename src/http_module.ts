@@ -14,14 +14,14 @@
  */
 import {NgModule} from '@angular/core';
 
-import {BrowserJsonp} from './src/backends/browser_jsonp';
-import {BrowserXhr} from './src/backends/browser_xhr';
-import {JSONPBackend, JSONPBackend_} from './src/backends/jsonp_backend';
-import {CookieXSRFStrategy, XHRBackend} from './src/backends/xhr_backend';
-import {BaseRequestOptions, RequestOptions} from './src/base_request_options';
-import {BaseResponseOptions, ResponseOptions} from './src/base_response_options';
-import {Http, Jsonp} from './src/http';
-import {XSRFStrategy} from './src/interfaces';
+import {BrowserJsonp} from './backends/browser_jsonp';
+import {BrowserXhr} from './backends/browser_xhr';
+import {JSONPBackend, JSONPBackend_} from './backends/jsonp_backend';
+import {CookieXSRFStrategy, XHRBackend} from './backends/xhr_backend';
+import {BaseRequestOptions, RequestOptions} from './base_request_options';
+import {BaseResponseOptions, ResponseOptions} from './base_response_options';
+import {Http, Jsonp} from './http';
+import {XSRFStrategy} from './interfaces';
 
 
 export function _createDefaultCookieXSRFStrategy() {

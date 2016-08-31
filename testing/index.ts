@@ -6,4 +6,9 @@
  * found in the LICENSE file at https://angular.io/license
  */
 
-export * from './testing/mock_backend';
+/**
+ * @module
+ * @description
+ * Entry point for all public APIs of the platform-server/testing package.
+ */
+export * from './mock_backend';
