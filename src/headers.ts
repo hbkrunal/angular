@@ -170,5 +170,6 @@ export class Headers {
 // This implementation is same as NodeJS.
 // see https://nodejs.org/dist/latest-v6.x/docs/api/http.html#http_message_headers
 function normalize(name: string): string {
+  return name;
   return name.toLowerCase();
 }
